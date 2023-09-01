@@ -18,6 +18,10 @@ export default function Home() {
         <Player source="/sounds/claps.mp3" loop={loop} />
       </div>
       <div className="flex flex-col gap-4">
+        <h3 className="text-xl font-bold">Noticias</h3>
+        <Player source="/sounds/news.mp3" loop={loop} />
+      </div>
+      <div className="flex flex-col gap-4">
         <h3 className="text-xl font-bold">Crónica</h3>
         <Player source="/sounds/cronica.mp3" loop={loop} />
       </div>
@@ -52,6 +56,10 @@ export default function Home() {
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-bold">Mision Imposible</h3>
         <Player source="/sounds/mision-imposible.mp3" loop={loop} />
+      </div>
+      <div className="flex flex-col gap-4">
+        <h3 className="text-xl font-bold">Supenso / Paranormal</h3>
+        <Player source="/sounds/suspenso-paranormal.mp3" loop={loop} />
       </div>
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-bold">Misterio</h3>
