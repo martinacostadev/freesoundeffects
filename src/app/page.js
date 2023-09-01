@@ -46,14 +46,6 @@ export default function Home() {
         <Player source="/sounds/violin-triste.mp3" loop={loop} />
       </div>
       <div className="flex flex-col gap-4">
-        <h3 className="text-xl font-bold">Y se marchó</h3>
-        <Player source="/sounds/y-se-marcho.mp3" loop={loop} />
-      </div>
-      <div className="flex flex-col gap-4">
-        <h3 className="text-xl font-bold">Ahí estáaaaaa goool (Closs)</h3>
-        <Player source="/sounds/mariano-closs-ahi-esta-gol.mp3" loop={loop} />
-      </div>
-      <div className="flex flex-col gap-4">
         <h3 className="text-xl font-bold">Ahí estáaaaaa goool (Closs)</h3>
         <Player source="/sounds/mariano-closs-ahi-esta-gol.mp3" loop={loop} />
       </div>
